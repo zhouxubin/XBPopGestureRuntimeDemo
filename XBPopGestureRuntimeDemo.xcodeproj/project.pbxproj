@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04722E281C84DD8500ED3BC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04722E271C84DD8500ED3BC9 /* main.m */; };
+		04722E2B1C84DD8500ED3BC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04722E2A1C84DD8500ED3BC9 /* AppDelegate.m */; };
+		04722E311C84DD8500ED3BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04722E2F1C84DD8500ED3BC9 /* Main.storyboard */; };
+		04722E331C84DD8500ED3BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04722E321C84DD8500ED3BC9 /* Assets.xcassets */; };
+		04722E361C84DD8500ED3BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04722E341C84DD8500ED3BC9 /* LaunchScreen.storyboard */; };
+		04722E3F1C84DDB100ED3BC9 /* XBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04722E3E1C84DDB100ED3BC9 /* XBFirstViewController.m */; settings = {ASSET_TAGS = (); }; };
+		04722E421C84DDBC00ED3BC9 /* XBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04722E411C84DDBC00ED3BC9 /* XBSecondViewController.m */; settings = {ASSET_TAGS = (); }; };
+		04722E451C84DE1100ED3BC9 /* XBBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04722E441C84DE1100ED3BC9 /* XBBaseNavController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04722E231C84DD8500ED3BC9 /* XBPopGestureRuntimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBPopGestureRuntimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04722E271C84DD8500ED3BC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04722E291C84DD8500ED3BC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04722E2A1C84DD8500ED3BC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04722E301C84DD8500ED3BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04722E321C84DD8500ED3BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04722E351C84DD8500ED3BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04722E371C84DD8500ED3BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04722E3D1C84DDB100ED3BC9 /* XBFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBFirstViewController.h; sourceTree = "<group>"; };
+		04722E3E1C84DDB100ED3BC9 /* XBFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBFirstViewController.m; sourceTree = "<group>"; };
+		04722E401C84DDBC00ED3BC9 /* XBSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBSecondViewController.h; sourceTree = "<group>"; };
+		04722E411C84DDBC00ED3BC9 /* XBSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBSecondViewController.m; sourceTree = "<group>"; };
+		04722E431C84DE1100ED3BC9 /* XBBaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBBaseNavController.h; sourceTree = "<group>"; };
+		04722E441C84DE1100ED3BC9 /* XBBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBBaseNavController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04722E201C84DD8500ED3BC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04722E1A1C84DD8500ED3BC9 = {
+			isa = PBXGroup;
+			children = (
+				04722E251C84DD8500ED3BC9 /* XBPopGestureRuntimeDemo */,
+				04722E241C84DD8500ED3BC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04722E241C84DD8500ED3BC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04722E231C84DD8500ED3BC9 /* XBPopGestureRuntimeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04722E251C84DD8500ED3BC9 /* XBPopGestureRuntimeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04722E291C84DD8500ED3BC9 /* AppDelegate.h */,
+				04722E2A1C84DD8500ED3BC9 /* AppDelegate.m */,
+				04722E3D1C84DDB100ED3BC9 /* XBFirstViewController.h */,
+				04722E3E1C84DDB100ED3BC9 /* XBFirstViewController.m */,
+				04722E401C84DDBC00ED3BC9 /* XBSecondViewController.h */,
+				04722E411C84DDBC00ED3BC9 /* XBSecondViewController.m */,
+				04722E431C84DE1100ED3BC9 /* XBBaseNavController.h */,
+				04722E441C84DE1100ED3BC9 /* XBBaseNavController.m */,
+				04722E2F1C84DD8500ED3BC9 /* Main.storyboard */,
+				04722E321C84DD8500ED3BC9 /* Assets.xcassets */,
+				04722E341C84DD8500ED3BC9 /* LaunchScreen.storyboard */,
+				04722E371C84DD8500ED3BC9 /* Info.plist */,
+				04722E261C84DD8500ED3BC9 /* Supporting Files */,
+			);
+			path = XBPopGestureRuntimeDemo;
+			sourceTree = "<group>";
+		};
+		04722E261C84DD8500ED3BC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04722E271C84DD8500ED3BC9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04722E221C84DD8500ED3BC9 /* XBPopGestureRuntimeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04722E3A1C84DD8500ED3BC9 /* Build configuration list for PBXNativeTarget "XBPopGestureRuntimeDemo" */;
+			buildPhases = (
+				04722E1F1C84DD8500ED3BC9 /* Sources */,
+				04722E201C84DD8500ED3BC9 /* Frameworks */,
+				04722E211C84DD8500ED3BC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XBPopGestureRuntimeDemo;
+			productName = XBPopGestureRuntimeDemo;
+			productReference = 04722E231C84DD8500ED3BC9 /* XBPopGestureRuntimeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04722E1B1C84DD8500ED3BC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XB;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = xubin;
+				TargetAttributes = {
+					04722E221C84DD8500ED3BC9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 04722E1E1C84DD8500ED3BC9 /* Build configuration list for PBXProject "XBPopGestureRuntimeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04722E1A1C84DD8500ED3BC9;
+			productRefGroup = 04722E241C84DD8500ED3BC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04722E221C84DD8500ED3BC9 /* XBPopGestureRuntimeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04722E211C84DD8500ED3BC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04722E361C84DD8500ED3BC9 /* LaunchScreen.storyboard in Resources */,
+				04722E331C84DD8500ED3BC9 /* Assets.xcassets in Resources */,
+				04722E311C84DD8500ED3BC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04722E1F1C84DD8500ED3BC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04722E421C84DDBC00ED3BC9 /* XBSecondViewController.m in Sources */,
+				04722E451C84DE1100ED3BC9 /* XBBaseNavController.m in Sources */,
+				04722E2B1C84DD8500ED3BC9 /* AppDelegate.m in Sources */,
+				04722E3F1C84DDB100ED3BC9 /* XBFirstViewController.m in Sources */,
+				04722E281C84DD8500ED3BC9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04722E2F1C84DD8500ED3BC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04722E301C84DD8500ED3BC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04722E341C84DD8500ED3BC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04722E351C84DD8500ED3BC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04722E381C84DD8500ED3BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04722E391C84DD8500ED3BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04722E3B1C84DD8500ED3BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XBPopGestureRuntimeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zxb.XBPopGestureRuntimeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04722E3C1C84DD8500ED3BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XBPopGestureRuntimeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zxb.XBPopGestureRuntimeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04722E1E1C84DD8500ED3BC9 /* Build configuration list for PBXProject "XBPopGestureRuntimeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04722E381C84DD8500ED3BC9 /* Debug */,
+				04722E391C84DD8500ED3BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04722E3A1C84DD8500ED3BC9 /* Build configuration list for PBXNativeTarget "XBPopGestureRuntimeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04722E3B1C84DD8500ED3BC9 /* Debug */,
+				04722E3C1C84DD8500ED3BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04722E1B1C84DD8500ED3BC9 /* Project object */;
+}
